@@ -1,0 +1,15 @@
+# Ignore sensitive config
+.env
+*.log
+
+# Ignore vendor directory (if using Composer)
+vendor/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor config
+.vscode/
+.idea/
+.env
