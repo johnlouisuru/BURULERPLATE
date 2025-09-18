@@ -1,3 +1,4 @@
 deployment:
   tasks:
-    - echo "Deployment triggered!"
+    - export DEPLOYPATH=/home/wwwroiru/public_html/
+    - /bin/rsync -av --exclude '.git' --exclude '.cpanel.yml' ./ $DEPLOYPATH
