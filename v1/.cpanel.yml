@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/wwwroiru/public_html/
+    - /bin/cp -R * $DEPLOYPATH
